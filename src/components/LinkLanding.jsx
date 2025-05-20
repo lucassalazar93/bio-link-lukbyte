@@ -1,6 +1,7 @@
 // src/components/LinkLanding.jsx
 import "./linkLanding.css";
 import perfilImage from "../assets/logoLukbyte.png";
+import { FaTiktok, FaFacebookSquare } from "react-icons/fa";
 
 const LinkLanding = () => {
   return (
@@ -63,7 +64,20 @@ const LinkLanding = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            🎥 Mira en TikTok
+            <FaTiktok style={{ marginRight: "8px", verticalAlign: "middle" }} />
+            Mira en TikTok
+          </a>
+
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/profile.php?id=61576133384091"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookSquare
+              style={{ marginRight: "8px", verticalAlign: "middle" }}
+            />
+            Visita nuestra página en Facebook
           </a>
         </div>
 
