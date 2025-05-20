@@ -7,7 +7,6 @@ const LinkLanding = () => {
     <div className="link-container">
       <div className="link-card">
         <img src={perfilImage} alt="Perfil" className="link-avatar" />
-        <h1>Lukbyte</h1>
         <p className="subtext">
           💡 Transformamos ideas En Experiencias Digitales Inolvidables 📲👨🏻‍💻
         </p>
